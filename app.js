@@ -2,7 +2,7 @@ let card = document.getElementById('card').value
 let Name = document.getElementById('name').value
 let date = document.getElementById('date').value
 let cv = document.getElementById('cv').value
-let submit = document.getElementById('submit').value
+let submit = document.getElementById('submit')
 
  checkInput = () => {
     if( (card == '') && (Name == '') && (date == '') && (cv == '')){
@@ -13,6 +13,6 @@ let submit = document.getElementById('submit').value
        console.log(errorMessage)
     }
     else{
-        console.log('good check out')
+        console.log('good check out');
     }
 }

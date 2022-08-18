@@ -65,11 +65,13 @@ label{
 .cv{
     width: 200px;
 }
-.submit{
+button{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 25px;
     border-radius: 8px;
+    width: 330px;
+    height: 40px;
 }
 .card-front{
     position: absolute;
@@ -197,11 +199,13 @@ span{
     .cv{
         width: 200px;
     }
-    .submit{
+    button{
         background-color: black;
         color: white;
         margin-top: 25px;
         border-radius: 8px;
+        width: 330px;
+        height: 40px;
     }
     .card-front{
         position: absolute;

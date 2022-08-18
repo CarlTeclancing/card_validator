@@ -30,26 +30,28 @@
         <div class="right">
             <form action="">
                 <label>cardholder name</label>
-                <input type="text" placeholder="enter card number">
+                <input id="card" type="text" placeholder="enter card number">
                 <small></small>
 
                 <label>card number</label>
-                <input type="text" placeholder="enter card number">
+                <input id="name" type="text" placeholder="enter card number">
                 <small></small>
 
                 <label>exp. date (mm/yy) cv</label>
                 <div class="bt">
-                    <input class="month" type="date" placeholder="MM"> 
+                    <input id="date" class="month" type="date" placeholder="MM"> 
 
-                    <input class="year" type="date" placeholder="YY"> 
+                    <input id="date" class="year" type="date" placeholder="YY"> 
 
-                    <input class="cv" type="text" placeholder="eg. 123"> 
+                    <input id="cv" class="cv" type="text" placeholder="eg. 123"> 
                     
                 </div>
                 <small>custom message</small>
-                <input class="submit" type="submit">
+                <button onclick="checkInput()" id="submit" class="submit" >Confirm</button>
             </form>
         </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

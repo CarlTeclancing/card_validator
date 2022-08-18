@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-front">
+            <div class="top">
+                <img src="images/card-logo.svg" alt="card-logo" width="70px" height="40px" >
+            </div>
+            <div class="middle">
+                <h2>9591 6489 6389 101E</h2>
+            </div>
+            <div class="down">
+                <span>FELICIA LEIRE</span>
+                <span>09/00</span>
+            </div>
+        </div>
+        <div class="card-back">
+            <h2 class="post">000</h2>
+        </div>
+        <div class="left">
+            <img src="images/bg-main-desktop.png" alt="bg card bg-main-desktop" height="100%" width="100%">
+        </div>
+        <div class="right">
+            <form action="">
+                <label>cardholder name</label>
+                <input type="text" placeholder="enter card number">
+                <small></small>
+
+                <label>card number</label>
+                <input type="text" placeholder="enter card number">
+                <small></small>
+
+                <label>exp. date (mm/yy) cv</label>
+                <div class="bt">
+                    <input class="month" type="date" placeholder="MM"> 
+
+                    <input class="year" type="date" placeholder="YY"> 
+
+                    <input class="cv" type="text" placeholder="eg. 123"> 
+                    
+                </div>
+                <small>custom message</small>
+                <input class="submit" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -23,7 +23,9 @@ Sub.addEventListener('click', function(){
         Name.value = '';
         date.value = '';
         cv.value = '';
-        
+        document.getElementById('right').style.display = 'none';
+        document.getElementById('popup').style.display = 'flex';
+
 
          console.log('good check out');
      }

@@ -130,6 +130,9 @@ h2{
 span{
     font-size: 0.7rem;
 }
+small{
+    display: none;
+}
 @media screen and (max-width: 840px) {
     body{
         width: 100%;
@@ -264,5 +267,8 @@ span{
     }
     span{
         font-size: 0.7rem;
+    }
+    small{
+        display: none;
     }
 }

@@ -28,14 +28,14 @@
             <img src="images/bg-main-desktop.png" alt="bg card bg-main-desktop" height="100%" width="100%">
         </div>
         <div class="right">
-            <form action="">
+            <form >
                 <label>cardholder name</label>
                 <input id="card" type="text" placeholder="enter card number">
-                <small></small>
+                <small id="error">Error.......</small>
 
                 <label>card number</label>
                 <input id="name" type="text" placeholder="enter card number">
-                <small></small>
+                <small id="error1">Error......</small>
 
                 <label>exp. date (mm/yy) cv</label>
                 <div class="bt">
@@ -46,9 +46,10 @@
                     <input id="cv" class="cv" type="text" placeholder="eg. 123"> 
                     
                 </div>
-                <small>custom message</small>
-                <button id="submit" class="submit" >Confirm</button>
+                <small id="error2">Error......</small>
+                
             </form>
+            <button id="submit" class="submit" >Confirm</button>
         </div>
     </div>
 

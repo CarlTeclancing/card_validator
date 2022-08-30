@@ -1,17 +1,32 @@
-let card = document.getElementById('card').value
-let Name = document.getElementById('name').value
-let date = document.getElementById('date').value
-let cv = document.getElementById('cv').value
+let card = document.getElementById('card')
+let Name = document.getElementById('name')
+let date = document.getElementById('date')
+let cv = document.getElementById('cv')
 let submit = document.getElementById('submit')
 
 let Sub = document.getElementById('submit')
 Sub.addEventListener('click', function(){
-    if( (card == '') || (Name == '') || (date == '') || (cv == '')){
-        let errorMessage = 'error fill all elements'
-        document.getElementsByName('small').innerText = errorMessage;
-        console.log(errorMessage)
+    if( (card.value == '') || (Name.value == '') || (date.value == '') || (cv.value == '')){
+
+        
+        document.getElementById('error').style.display = 'inline';
+        document.getElementById('error1').style.display = 'inline';
+        document.getElementById('error2').style.display = 'inline';
+        console.log('connection created sucefully' + errrorMessage);
+
      }
      else{
+        document.getElementById('error').style.display = 'none';
+        document.getElementById('error1').style.display = 'none';
+        document.getElementById('error2').style.display = 'none'
+        card.value = '';
+        Name.value = '';
+        date.value = '';
+        cv.value = '';
+        
+
          console.log('good check out');
      }
 })
+
+console.log('connection created sucefully')

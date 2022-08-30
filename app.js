@@ -24,11 +24,12 @@ Sub.addEventListener('click', function(){
         date.value = '';
         cv.value = '';
         document.getElementById('right').style.display = 'none';
+        document.getElementById('popup').style.transition = '300';
         document.getElementById('popup').style.display = 'flex';
-
 
          console.log('good check out');
      }
 })
 
 console.log('connection created sucefully')
+Window.reload()

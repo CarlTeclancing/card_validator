@@ -12,7 +12,7 @@ Sub.addEventListener('click', function(){
         document.getElementById('error').style.display = 'inline';
         document.getElementById('error1').style.display = 'inline';
         document.getElementById('error2').style.display = 'inline';
-        console.log('connection created sucefully' + errrorMessage);
+        console.log('loading error message');
 
      }
      else{
@@ -27,9 +27,8 @@ Sub.addEventListener('click', function(){
         document.getElementById('popup').style.transition = '300';
         document.getElementById('popup').style.display = 'flex';
 
-         console.log('good check out');
+         console.log('good check out succesfull');
      }
 })
 
-console.log('connection created sucefully')
-Window.reload()
+console.log('connection created sucefully with app.js ')
